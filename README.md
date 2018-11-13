@@ -18,5 +18,6 @@
 5. 子线程更新UI<br>
  [https://www.cnblogs.com/joy99/p/6121280.html]<br>
  在子线程执行某段代码，需要更新UI的时候去通知主线程，让主线程来更新。如何做呢？常见的方法，除了前面提到的在UI线程创建Handler，在子线程发送消息到UI线程，通知UI线程更新UI，还有 handler.post(Runnable r)、 view.post(Runnable r)、activity.runOnUIThread(Runnable r)等方法。
-#### 注：
-![智能显示教师列表]()
+### 项目截图：
+![查询出的课程表](https://github.com/sexyorange/schedule/blob/master/screenshots/tx.jpg)
+![智能显示教师列表](https://github.com/sexyorange/schedule/blob/master/screenshots/kcb.jpg)
